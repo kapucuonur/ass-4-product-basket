@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #E9E9E9;
+    padding: 50px;
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    border-radius: 5rem;
+    
+    /* max-width: 1500px;     */
+}
+
+main{
+    background-color: #0b91646b;
+    align-items: center;
+    gap: 1.5rem;
+    box-shadow: 1px 1px 5px 1px; 
+    border-radius: 3rem  
+
+}
+
+
+section.bike-info{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;   
+    flex: 1;
+}
+
+section.bike-image img{
+    display: flex;
+    text-align: center;
+    padding: 1%;
+    width: 80%;
+    border-radius: 3rem;
+    width: 1000px;
+}
+
+header h1{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+header h1 span{
+    color: rgba(11, 114, 117, 0.418);
+    background-color:#2175F5;
+    border-radius: 10px;
+    padding: 3px 10px;
+    font-size: 1.3rem;
+}
+
+header p{
+
+    font-size: 1.5rem;
+}
+
+article.bike-info h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+article.bike-info p{
+    font-size: 17px;
+    margin-top: 10px;
+    
+}
+
+article.bikesize h2{
+    font-size: 20px;
+
+}
+
+.buttons{
+
+    
+}
+
+article.bikesize button{
+    font-size: 17px;
+    font-weight: 500;
+    line-height:20px;
+
+    border-radius: 5px;
+
+    width: 70px;
+    margin-top: 20px;
+
+}
+
+article.bikesize #tb{
+    background-color: #21f5c067;
+    color: white;
+}
+article.bikesize p{
+    color: rgb(233, 14, 14);
+    font-size: large;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer button{
+    font-size: 17px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    padding: 10px;
+    color: white;
+    background-color: #0a755aa9;
+    border-radius: 10px;
+}
+
+article.biksize button:hover{
+    cursor: pointer;
+}
+
+footer p{
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 34px;
+    margin-right: 20px;
+}
+
+footer button:hover{
+    cursor: pointer;
+}
+
+div ul li{
+    display: flex;
+    text-align: center;
+    gap: 1rem;
+    flex-direction: row;
+    padding: 0.3rem;
+}
+div basket{
+    display: flex;
+}
+@media screen and (max-width: 1280px) {
+    main{
+        /* width: 800px; */
+        width: 60vw;
+        padding: 20px;  
+    } 
+    .container{
+        padding: 250px;
+        justify-content: center;
+        
+        
+    }
+}
+
+@media screen and (max-width: 820px) {
+    main{
+        /* width: 500px; */
+        width: 50vw;
+        flex-direction: column;
+    } 
+    .container{
+        padding: 100px;
+        justify-content: center;
+    }
+    section.bike-image img{
+        /* min-width: 400px; */
+        min-width: 200px;
+    }
+    section.bike-info{
+        padding: 40px;
+        min-width: 200px;
+    }
+
+}
